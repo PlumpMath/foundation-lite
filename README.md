@@ -1,29 +1,21 @@
-# Foundation libsass template
+## Foundation Lite
 
-This is a template to start your own project that uses Grunt and libsass!
+A work in progress template for Foundation by ZURB that gets down to business.
 
-## Requirements
+#### Who is this for?
 
-You'll need to have the following items installed before continuing.
+Anyone who is interested in implementing Foundation with pure SASS with little to no use of its JavaScript components.
 
-  * [Node.js](http://nodejs.org): Use the installer provided on the NodeJS website.
-  * [Grunt](http://gruntjs.com/): Run `[sudo] npm install -g grunt-cli`
-  * [Bower](http://bower.io): Run `[sudo] npm install -g bower`
+## To get started
 
-## Quickstart
+Make sure you have [Node.js](http://nodejs.org) installed on your machine.
 
-```bash
-git clone git@github.com:zurb/foundation-libsass-template.git
-npm install && bower install
-```
+1. Clone the repository.
+2. Run `npm install -g bower grunt` in your terminal.
+3. `cd` to the cloned directory on your computer.
+4. Run `npm install && bower install`.
+5. Finally, run `grunt`.
 
-While you're working on your project, run:
+Grunt will watch for changes in the `scss/` directory and compile your CSS automatically.
 
-`grunt`
-
-And you're set!
-
-## Directory Structure
-
-  * `scss/_settings.scss`: Foundation configuration settings go in here
-  * `scss/app.scss`: Application styles go here
+See [Foundation's documentation](http://foundation.zurb.com/docs/) for further information on using it with SASS.
