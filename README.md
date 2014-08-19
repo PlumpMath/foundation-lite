@@ -14,7 +14,9 @@ Make sure you have [Node.js](http://nodejs.org) installed on your machine.
 2. Run `npm install -g bower grunt` in your terminal.
 3. `cd` to the cloned directory on your computer.
 4. Run `npm install && bower install`.
-5. Finally, run `grunt`.
+5. Run `grunt lite` to remove unnecessary files.
+   - _This deletes certain bower components. Use with caution!_
+6. Finally, run `grunt`.
 
 Grunt will watch for changes in the `scss/` directory and compile your CSS automatically.
 
