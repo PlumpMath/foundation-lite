@@ -4,7 +4,7 @@ A work in progress template for Foundation by ZURB that gets down to business.
 
 #### Who is this for?
 
-Anyone who is interested in implementing Foundation with pure SASS and little to no use of its JavaScript components.
+Anyone who is interested in implementing Foundation with pure SASS and no use of its JavaScript components or CSS classes.
 
 ## To get started
 
