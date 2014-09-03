@@ -36,12 +36,8 @@ module.exports = function(grunt) {
       })
     );
 
-  console.log(extra_dirs);
-  console.log(extra_files);
-
   grunt.initConfig({
     pkg: grunt.file.readJSON('package.json'),
-
     sass: {
       options: {
         includePaths: ['bower_components/foundation/scss']
@@ -59,7 +55,6 @@ module.exports = function(grunt) {
       grunt: {
         files: ['Gruntfile.js']
       },
-
       sass: {
         files: 'scss/**/*.scss',
         tasks: ['sass']
