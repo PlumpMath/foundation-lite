@@ -11,7 +11,7 @@ Anyone who is interested in implementing Foundation with pure SASS and no use of
 Make sure you have [Node.js](http://nodejs.org) installed on your machine.
 
 1. Clone the repository.
-2. Run `npm install -g bower grunt` in your terminal.
+2. Run `npm install -g bower grunt grunt-cli` in your terminal.
 3. `cd` to the cloned directory on your computer.
 4. Run `npm install && bower install`.
 5. Run `grunt lite` to remove unnecessary files.
